@@ -1,8 +1,5 @@
 ### Hi there, I'm Petrus Chanel Reksy Arfila - aka [Reksy747][website] 👋
 
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/Raden_Reksy?color=%2300acee&logo=Twitter&style=for-the-badge)](https://twitter.com/Raden_Reksy?ref_src=twsrc%5Etfw)
-
 ### I'm a Student!
 
 - 🔭 I’m currently Intern on a [DutaTani][websitep]!
