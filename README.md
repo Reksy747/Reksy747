@@ -3,7 +3,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Raden_Reksy?color=%2300acee&logo=Twitter&style=for-the-badge)](https://twitter.com/Raden_Reksy?ref_src=twsrc%5Etfw)
 
-## I'm a Student!
+### I'm a Student!
 
 - 🔭 I’m currently Intern on a [DutaTani][websitep]!
 - 🌱 I’m currently learning everything 🤣
@@ -54,7 +54,7 @@
 <details>
   <summary>:zap: Github Stats</summary>
 
-  <img align="left" alt="Reksy747's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=codeSTACKr&show_icons=true&hide_border=true" />
+  <img align="left" alt="Reksy747's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Reksy747&show_icons=true&hide_border=true" />
 
 </details>
 
