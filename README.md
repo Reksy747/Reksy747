@@ -2,7 +2,7 @@
 
 ### I'm a Student!
 
-- 🔭 I’m currently Intern on a [DutaTani][websitep]!
+- 🔭 I’m currently Intern on a [DutaTani M-learning][websitep]!
 - 🌱 I’m currently learning everything 🤣
 - 🥅 2021 Goals: Contribute to Open Source projects
 - ⚡ Fun fact: I love to playing games 
