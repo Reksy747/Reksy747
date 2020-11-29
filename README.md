@@ -60,5 +60,5 @@
 [twitter]: https://twitter.com/Raden_Reksy
 [youtube]: https://www.youtube.com/channel/UCO9IlWpDLF8sSIfhZkmY25g
 [instagram]: https://www.instagram.com/raden_reksy/
-[linkedin]: www.linkedin.com/in/reksy
+[linkedin]: https://www.linkedin.com/in/reksy
 
