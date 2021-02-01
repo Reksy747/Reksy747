@@ -7,8 +7,8 @@
 - 🥅 2021 Goals: Contribute to Open Source projects
 - ⚡ Fun fact: I love to playing games 
 
-### Spotify Playing 🎧
-[<img src="https://spotify-now-playing-git-master.reksy747.vercel.app/api/spotify" alt="Reksy747 Spotify Playing" width="350" />](https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi)
+//### Spotify Playing 🎧
+//[<img src="https://spotify-now-playing-git-master.reksy747.vercel.app/api/spotify" alt="Reksy747 Spotify Playing" width="350" />]//(https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi)
 
 ### Connect with me:
 
