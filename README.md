@@ -55,7 +55,7 @@
 
 </details>
 
-[websitep]: https://dutatani.id/si_mlearning/public/
+[websitep]: https://dutatani.fti.ukdw.ac.id/
 [website]: https://Reksy747.github.io
 [twitter]: https://twitter.com/Raden_Reksy
 [youtube]: https://www.youtube.com/channel/UCO9IlWpDLF8sSIfhZkmY25g
