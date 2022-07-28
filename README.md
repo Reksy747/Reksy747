@@ -2,9 +2,9 @@
 
 ### I'm a Student!
 
-- 🔭 I’m currently Intern on a [DutaTani M-learning][websitep]!
+- 🔭 I’m currently Working on a [PegiPegi][websitep]!
 - 🌱 I’m currently learning everything 🤣
-- 🥅 2021 Goals: Contribute to Open Source projects
+- 🥅 2022 Goals: Contribute to Open Source projects
 - ⚡ Fun fact: I love to playing games 
 
 <!--
@@ -55,7 +55,7 @@
 
 </details>
 
-[websitep]: https://dutatani.fti.ukdw.ac.id/
+[websitep]: https://www.pegipegi.com/
 [website]: https://Reksy747.github.io
 [twitter]: https://twitter.com/Raden_Reksy
 [youtube]: https://www.youtube.com/channel/UCO9IlWpDLF8sSIfhZkmY25g
