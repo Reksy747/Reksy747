@@ -1,10 +1,10 @@
 ### Hi there, I'm Petrus Chanel Reksy Arfila - aka [Reksy747][website] 👋
 
-### I'm a Student!
+### I'm a Site Reliability Engineering!
 
 - 🔭 I’m currently Working on a [PegiPegi][websitep]!
 - 🌱 I’m currently learning everything 🤣
-- 🥅 2022 Goals: Contribute to Open Source projects
+- 🥅 2024 Goals: Contribute to Open Source projects
 - ⚡ Fun fact: I love to playing games 
 
 <!--
