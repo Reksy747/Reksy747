@@ -1,13 +1,13 @@
 ### Hi there 👋
 
 <a href="https://reksy747.github.io/">
-  <img align="left" alt="Abhishek's Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Blue_globe_icon.svg" />
+  <img align="left" alt="Reksy Website" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Blue_globe_icon.svg" />
 </a>
 <a href="https://twitter.com/Raden_Reksy">
-  <img align="left" alt="Abhishek Naidu | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+  <img align="left" alt="Raden_Reksy | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/reksy">
-  <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
 ![](https://visitor-badge.glitch.me/badge?page_id=Reksy747.Reksy747)
@@ -21,7 +21,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 - 💼 any opportunity work? do reach, [email](mailto:reksy737@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
-
+🎵 **Spotify now playing:**
 <!--START_SECTION:waka-->
 
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi)
@@ -29,7 +29,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 <!--END_SECTION:waka-->
 <br />
 
-### Languages and Tools:
+**languages and tools:**  
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
@@ -48,7 +48,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 <code><img height="20" src="https://cdn.worldvectorlogo.com/logos/kubernets.svg"></code>
 <code><img height="20" src="https://cncf-branding.netlify.app/img/projects/helm/horizontal/color/helm-horizontal-color.svg"></code>
 
-📈 my github stats
+📈 **my github stats**
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=reksy747&show_icons=true&theme=gotham" alt="reksy747" />
 
