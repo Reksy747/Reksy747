@@ -2,7 +2,7 @@
 
 ### I'm a Site Reliability Engineering!
 
-- 🔭 I’m currently Working on a [PegiPegi][websitep]!
+- 🔭 I’m currently looking for job!
 - 🌱 I’m currently learning everything 🤣
 - 🥅 2024 Goals: Contribute to Open Source projects
 - ⚡ Fun fact: I love to playing games 
