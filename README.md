@@ -16,7 +16,7 @@
 
 hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated hard worker who is always looking for a challenge, responsible and willing to learn. Bachelor Degree in Informatics at Duta Wacana Christian University with great passion for the IT Industry. I really want to be challenged to grow and further enhance my IT skills. My greatest passion in life is to use my technical knowledge to benefit other people and organizations.
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="320" height="320" />
 
 - 💼 any opportunity work? do reach, [email](mailto:reksy737@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
