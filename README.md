@@ -21,13 +21,6 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 - 💼 any opportunity work? do reach, [email](mailto:reksy737@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
-### I'm a Site Reliability Engineering!
-
-- 🔭 I’m currently looking for job!
-- 🌱 I’m currently learning everything 🤣
-- 🥅 2024 Goals: Contribute to Open Source projects
-- ⚡ Fun fact: I love to playing games 
-
 <!--
 ### Spotify Playing 🎧
 //[<img src="https://spotify-now-playing-git-master.reksy747.vercel.app/api/spotify" alt="Reksy747 Spotify Playing" width="350" />]//(https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi) -->
@@ -52,6 +45,8 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 <img align="left" alt="terraform" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" />
 <img align="left" alt="docker" width="26px" src="https://cdn.worldvectorlogo.com/logos/docker.svg" />
 <img align="left" alt="kubernetes" width="26px" src="https://cdn.worldvectorlogo.com/logos/kubernets.svg" />
+
+<br />
 
 📈 my github stats
 
