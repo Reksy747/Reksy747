@@ -21,7 +21,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 - 💼 any opportunity work? do reach, [email](mailto:reksy737@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
-📊 **Spotify:**
+
 <!--START_SECTION:waka-->
 
 [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi)
