@@ -50,7 +50,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 
 📈 **My github stats**
 
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=reksy747&show_icons=true&theme=gotham" alt="reksy747" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=reksy747&show_icons=true&theme=gotham" alt="reksy747" />
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Reksy747" alt="reksy747" />
 
 
