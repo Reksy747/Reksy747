@@ -10,7 +10,7 @@
   <img align="left" alt="Reksy LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
-![](https://visitor-badge.glitch.me/badge?page_id=Reksy747.Reksy747)
+![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
 
 <br />
 
