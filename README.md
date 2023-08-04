@@ -11,8 +11,9 @@
 </a>
 
 ![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
-![](https://github.com/Reksy747/Reksy747.github.io/blob/master/images/readmebox.svg)
 <br />
+![](https://github.com/Reksy747/Reksy747.github.io/blob/master/images/readmebox.svg)
+
 
 <br />
 
