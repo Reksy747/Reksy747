@@ -7,7 +7,7 @@
   <img align="left" alt="Raden_Reksy | Twitter" width="22px" src="https://github.com/johan/svg-cleanups/blob/master/logos/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/reksy">
-  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" />
+  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" />
 </a>
 
 ![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
