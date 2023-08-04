@@ -49,7 +49,7 @@ hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated 
 <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg"></code>
 <code><img height="20" src="https://cdn.worldvectorlogo.com/logos/docker.svg"></code>
 <code><img height="20" src="https://cdn.worldvectorlogo.com/logos/kubernets.svg"></code>
-<code><img height="20" src="https://cncf-branding.netlify.app/img/projects/helm/horizontal/color/helm-horizontal-color.svg"></code>
+
 
 
 
