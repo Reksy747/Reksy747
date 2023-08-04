@@ -4,14 +4,16 @@
   <img align="left" alt="Reksy Website" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Blue_globe_icon.svg" />
 </a>
 <a href="https://twitter.com/Raden_Reksy">
-  <img align="left" alt="Raden_Reksy | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+  <img align="left" alt="Raden_Reksy | Twitter" width="22px" src="https://github.com/johan/svg-cleanups/blob/master/logos/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/reksy">
-  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" />
 </a>
 
 ![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
 
+<br />
+![readmebox]()
 <br />
 
 hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated hard worker who is always looking for a challenge, responsible and willing to learn. Bachelor Degree in Informatics at Duta Wacana Christian University with great passion for the IT Industry. I really want to be challenged to grow and further enhance my IT skills. My greatest passion in life is to use my technical knowledge to benefit other people and organizations.
