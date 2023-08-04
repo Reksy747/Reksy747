@@ -11,9 +11,9 @@
 </a>
 
 ![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
-
-<br />
 ![](https://github.com/Reksy747/Reksy747.github.io/blob/master/images/readmebox.svg)
+<br />
+
 <br />
 
 hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated hard worker who is always looking for a challenge, responsible and willing to learn. Bachelor Degree in Informatics at Duta Wacana Christian University with great passion for the IT Industry. I really want to be challenged to grow and further enhance my IT skills. My greatest passion in life is to use my technical knowledge to benefit other people and organizations.
