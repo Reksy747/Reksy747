@@ -43,7 +43,29 @@ _no moves yet_
 _no winners yet_
 <!--END_SECTION:game-->
 
-<sub>You need a GitHub login to play. The bot only reads the issue title, never the body, and you can't make two moves in a row.</sub>
+### How to play
+
+There is no quiz and no wrong answer. Your "answer" is a **move**, and every move hits the outage differently. Together, visitors drain its HP to 0.
+
+1. **Click a move button** above. A new GitHub issue opens with the title already filled in (for example `play: rollback`). Log in to GitHub if asked.
+2. **Leave the title as it is** and press **Submit new issue**. That click is your move.
+3. **Wait about 30 seconds.** The bot replies on your issue with the result and a joke, then closes it. Refresh this page to see the board change.
+
+| Move | What it does |
+|---|---|
+| `rollback` | 18 damage, every time |
+| `restart-it` | 5–10 damage, with an 8% chance it fixes everything at once |
+| `blame-dns` | 0 damage, but great vibes |
+| `add-yaml` | starts at 4 damage and adds 4 each time anyone uses it, up to 30 (resets when an incident is solved) |
+| `deploy-friday` | coin flip: 35 damage, or the outage heals 20 |
+
+**What happens next**
+- **Your move lands:** the HP bar drops, the bot replies with the damage and a joke, and your name appears under *Last moves*.
+- **You land the final blow (HP hits 0):** the incident is resolved, you join the *Hall of fame*, the "days since last incident" counter resets to 0, and a new incident starts at full HP.
+- **It backfires:** `deploy-friday` can make things worse, and the HP goes back up.
+- **Your move is rejected:** the bot replies and closes the issue if the title isn't exactly `play: <move>` with one of the moves above, or if you made the last move (wait for someone else). Issues whose titles don't start with `play:` are ignored.
+
+<sub>You need a GitHub login to play. The bot only reads the issue title, never the body.</sub>
 
 ## About
 
