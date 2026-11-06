@@ -1,0 +1,11 @@
+{
+  "incident": {
+    "name": "Certificate expired at 3am",
+    "hp": 80,
+    "max_hp": 80
+  },
+  "yaml_stack": 0,
+  "log": [],
+  "hall_of_fame": [],
+  "last_resolved": "2026-11-06"
+}

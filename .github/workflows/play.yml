@@ -1,0 +1,46 @@
+name: Play Incident Commander
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# One move at a time so simultaneous clicks cannot corrupt the state file.
+concurrency:
+  group: game
+  cancel-in-progress: false
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The issue title reaches Python only through env vars, never interpolated into shell.
+      - id: play
+        run: python3 scripts/game.py
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          USER: ${{ github.event.issue.user.login }}
+          NUMBER: ${{ github.event.issue.number }}
+
+      - if: steps.play.outputs.applied == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state README.md
+          git commit -m "game: move from issue #$NUMBER"
+          git push
+        env:
+          NUMBER: ${{ github.event.issue.number }}
+
+      - run: |
+          gh issue comment "$NUMBER" --body-file reply.md
+          gh issue close "$NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}

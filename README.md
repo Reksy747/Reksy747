@@ -1,58 +1,56 @@
-### Hi there 👋
+<h1 align="center">Reksy — DevOps Engineer</h1>
 
-<a href="https://reksy747.github.io/">
-  <img align="left" alt="Reksy Website" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Blue_globe_icon.svg" />
-</a>
-<a href="https://twitter.com/Raden_Reksy">
-  <img align="left" alt="Raden_Reksy | Twitter" width="22px" src="https://github.com/johan/svg-cleanups/blob/master/logos/twitter.svg" />
-</a>
-<a href="https://www.linkedin.com/in/reksy">
-  <img align="left" alt="Reksy LinkedIN" width="22px" src="https://github.com/Reksy747/Reksy747.github.io/blob/master/images/linkedin-logo-2430.svg" />
-</a>
+<p align="center"><i>I automate the boring parts so the interesting failures reach production faster.</i></p>
 
-![](https://komarev.com/ghpvc/?username=Reksy747&style=flat)
-<br />
-<br />
-![](https://github.com/Reksy747/Reksy747.github.io/blob/master/images/readmebox.svg)
+```bash
+reksy@prod:~$ whoami
+DevOps Engineer
+reksy@prod:~$ systemctl status incident
+● incident.service - 🔥 currently on fire. Please help.
+```
 
-<br />
+<p align="center">
+  <a href="https://reksy747.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-reksy747.github.io-0a66c2?style=flat-square"></a>
+  <a href="https://twitter.com/Raden_Reksy"><img alt="Twitter" src="https://img.shields.io/badge/twitter-@Raden__Reksy-1d9bf0?style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/reksy"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-reksy-0a66c2?style=flat-square"></a>
+  <a href="mailto:reksy737@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-reksy737@gmail.com-ea4335?style=flat-square"></a>
+  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=Reksy747&style=flat-square">
+</p>
 
-hi, i'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), A motivated hard worker who is always looking for a challenge, responsible and willing to learn. Bachelor Degree in Informatics at Duta Wacana Christian University with great passion for the IT Industry. I really want to be challenged to grow and further enhance my IT skills. My greatest passion in life is to use my technical knowledge to benefit other people and organizations.
+## 🎮 Incident Commander
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="350" />
+Production is on fire and **you're on call**. Pick a move, press **Submit new issue**, and a GitHub Action (yes, really) processes it, roasts you, and updates the board in about 30 seconds. Everyone fights the same outage. Land the final blow and join the hall of fame.
 
-- 💼 any opportunity work? do reach, [email](mailto:reksy737@gmail.com) :)
-- 💬 ask me about anything, i am happy to help;
+<p align="center">
+  <a href="https://github.com/Reksy747/Reksy747/issues/new?title=play%3A+rollback&body=Just+press+Submit+new+issue."><img alt="rollback" src="https://img.shields.io/badge/%E2%96%B6-rollback-2ea043?style=for-the-badge"></a>
+  <a href="https://github.com/Reksy747/Reksy747/issues/new?title=play%3A+restart-it&body=Just+press+Submit+new+issue."><img alt="restart-it" src="https://img.shields.io/badge/%E2%96%B6-restart--it-0a66c2?style=for-the-badge"></a>
+  <a href="https://github.com/Reksy747/Reksy747/issues/new?title=play%3A+blame-dns&body=Just+press+Submit+new+issue."><img alt="blame-dns" src="https://img.shields.io/badge/%E2%96%B6-blame--dns-8957e5?style=for-the-badge"></a>
+  <a href="https://github.com/Reksy747/Reksy747/issues/new?title=play%3A+add-yaml&body=Just+press+Submit+new+issue."><img alt="add-yaml" src="https://img.shields.io/badge/%E2%96%B6-add--yaml-bf8700?style=for-the-badge"></a>
+  <a href="https://github.com/Reksy747/Reksy747/issues/new?title=play%3A+deploy-friday&body=Just+press+Submit+new+issue."><img alt="deploy-friday" src="https://img.shields.io/badge/%E2%96%B6-deploy--friday-cf222e?style=for-the-badge"></a>
+</p>
 
-🎵 **Spotify now playing:**
-<!--START_SECTION:waka-->
+<!--START_SECTION:game-->
+**🔥 Incident:** Certificate expired at 3am
 
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/21c4wsngsgcs63rebycex3fqi)
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥 `80/80`
 
-<!--END_SECTION:waka-->
-<br />
+🗓️ **0 days since last incident was resolved**
 
-🛠️ **languages and tools:**  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/laravel/laravel.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="20" src="https://cdn.worldvectorlogo.com/logos/google-cloud-1.svg"></code>
-<code><img height="20" src="https://cdn.worldvectorlogo.com/logos/aws-2.svg"></code>
-<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg"></code>
-<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg"></code>
-<code><img height="20" src="https://cdn.worldvectorlogo.com/logos/docker.svg"></code>
-<code><img height="20" src="https://cdn.worldvectorlogo.com/logos/kubernets.svg"></code>
+**Last moves**
+_no moves yet_
 
+**Hall of fame**
+_no winners yet_
+<!--END_SECTION:game-->
 
+<sub>You need a GitHub login to play. The bot only reads the issue title, never the body, and you can't make two moves in a row.</sub>
 
+## About
 
+Hi, I'm [Petrus Chnanel Reksy Arfila](https://reksy747.github.io/), an Informatics graduate of Duta Wacana Christian University who wants software to reach production reliably: automate the boring parts, ship small, learn from what breaks. I'd like to use my technical knowledge to benefit people and organizations.
 
+💼 Open to DevOps opportunities. [Email me](mailto:reksy737@gmail.com), or beat the outage first.
 
+## Stack
 
+`Git` `Docker` `Kubernetes` `Terraform` `Jenkins` `GitHub Actions` `AWS` `GCP` · also: Java, Laravel, MySQL, MongoDB, HTML/Bootstrap
