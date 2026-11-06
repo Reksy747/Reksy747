@@ -1,11 +1,16 @@
 {
   "incident": {
     "name": "Certificate expired at 3am",
-    "hp": 76,
+    "hp": 68,
     "max_hp": 80
   },
-  "yaml_stack": 1,
+  "yaml_stack": 2,
   "log": [
+    {
+      "user": "Reksy747",
+      "move": "add-yaml",
+      "text": "-8 HP. Two spaces or four? The outage waits."
+    },
     {
       "user": "ReksyArfila",
       "move": "add-yaml",
