@@ -98,3 +98,39 @@ def apply_move(state: dict, move: str, user: str, seed: int, today: date):
 
     s["log"] = ([{"user": user, "move": move, "text": text}] + s["log"])[:5]
     return s, f"@{user} used `{move}`: {text}"
+
+
+BAR_CELLS = 20
+MARKERS = ("<!--START_SECTION:game-->", "<!--END_SECTION:game-->")
+
+
+def render(state: dict, today: date) -> str:
+    inc = state["incident"]
+    filled = round(BAR_CELLS * inc["hp"] / inc["max_hp"])
+    if inc["hp"] > 0:
+        filled = max(1, filled)
+    bar = "🟥" * filled + "⬜" * (BAR_CELLS - filled)
+    days = max(0, (today - date.fromisoformat(state["last_resolved"])).days)
+    unit = "day" if days == 1 else "days"
+    moves = "\n".join(f"- @{e['user']} — {e['move']} — {e['text']}" for e in state["log"]) or "_no moves yet_"
+    hall = "\n".join(f"- @{e['user']} — {e['incident']} — {e['date']}" for e in state["hall_of_fame"]) or "_no winners yet_"
+    return (
+        f"**🔥 Incident:** {inc['name']}\n\n"
+        f"{bar} `{inc['hp']}/{inc['max_hp']}`\n\n"
+        f"🗓️ **{days} {unit} since last incident was resolved**\n\n"
+        f"**Last moves**\n{moves}\n\n"
+        f"**Hall of fame**\n{hall}"
+    )
+
+
+def update_readme(text: str, board: str) -> str:
+    start, end = MARKERS
+    new, n = re.subn(
+        f"({re.escape(start)}).*?({re.escape(end)})",
+        lambda m: f"{m.group(1)}\n{board}\n{m.group(2)}",
+        text,
+        flags=re.S,
+    )
+    if n == 0:
+        raise ValueError("README is missing the game section markers")
+    return new

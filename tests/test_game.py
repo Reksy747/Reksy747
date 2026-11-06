@@ -139,5 +139,50 @@ class Validate(unittest.TestCase):
             self.assertTrue(msg)
 
 
+class Render(unittest.TestCase):
+    def test_render_fresh_state(self):
+        board = game.render(game.initial_state(TODAY), TODAY)
+        for want in ["Certificate expired at 3am", "80/80", "0 days since last incident", "_no moves yet_", "_no winners yet_"]:
+            self.assertIn(want, board)
+
+    def test_render_hp_bar_proportional(self):
+        board = game.render(st(40, 80), TODAY)
+        self.assertEqual(board.count("🟥"), 10)
+        self.assertEqual(board.count("⬜"), 10)
+
+    def test_render_days_since(self):
+        s = game.initial_state(date(2026, 11, 3))
+        self.assertIn("3 days since", game.render(s, TODAY))
+        s["last_resolved"] = "2026-11-05"
+        self.assertIn("1 day since", game.render(s, TODAY))
+
+    def test_render_lists_log_and_hall(self):
+        s = st(10)
+        s, _ = play(s, "rollback", "winner")
+        board = game.render(s, TODAY)
+        self.assertIn("@winner — rollback —", board)
+        self.assertIn("@winner — " + game.INCIDENTS[0][0] + " — 2026-11-06", board)
+        self.assertNotIn("_no moves yet_", board)
+
+
+MARK_A, MARK_B = "<!--START_SECTION:game-->", "<!--END_SECTION:game-->"
+
+
+class UpdateReadme(unittest.TestCase):
+    text = f"top\n{MARK_A}\nold\n{MARK_B}\nbottom\n"
+
+    def test_update_readme_replaces_between_markers_only(self):
+        out = game.update_readme(self.text, "NEW \\1 board")
+        self.assertEqual(out, f"top\n{MARK_A}\nNEW \\1 board\n{MARK_B}\nbottom\n")
+
+    def test_update_readme_idempotent(self):
+        once = game.update_readme(self.text, "NEW")
+        self.assertEqual(game.update_readme(once, "NEW"), once)
+
+    def test_update_readme_missing_markers_raises(self):
+        with self.assertRaises(ValueError):
+            game.update_readme("no markers here", "NEW")
+
+
 if __name__ == "__main__":
     unittest.main()
