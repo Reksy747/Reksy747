@@ -1,11 +1,16 @@
 {
   "incident": {
     "name": "Certificate expired at 3am",
-    "hp": 80,
+    "hp": 76,
     "max_hp": 80
   },
-  "yaml_stack": 0,
+  "yaml_stack": 1,
   "log": [
+    {
+      "user": "ReksyArfila",
+      "move": "add-yaml",
+      "text": "-4 HP. More YAML. Indentation is a lifestyle."
+    },
     {
       "user": "Reksy747",
       "move": "deploy-friday",
