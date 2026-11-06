@@ -1,9 +1,13 @@
 """Incident Commander: rules for the profile README game. Standard library only."""
 import copy
+import json
+import os
 import random
 import re
+from pathlib import Path
 from datetime import date
 
+ROOT = Path(__file__).resolve().parent.parent
 MOVES = ("rollback", "restart-it", "blame-dns", "add-yaml", "deploy-friday")
 
 INCIDENTS = [
@@ -134,3 +138,35 @@ def update_readme(text: str, board: str) -> str:
     if n == 0:
         raise ValueError("README is missing the game section markers")
     return new
+
+
+def main(root: Path = ROOT, env=os.environ) -> bool:
+    """Apply one move from env (TITLE, USER, NUMBER); always write root/reply.md. True if applied."""
+    state_path, readme_path, reply_path = root / "state" / "game.json", root / "README.md", root / "reply.md"
+    today = date.today()
+    state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else initial_state(today)
+    move, msg = validate(state, env.get("TITLE", ""), env.get("USER", ""))
+    seed = None
+    if move:
+        try:
+            seed = int(env["NUMBER"])
+        except (KeyError, ValueError):
+            move, msg = None, "I could not read the issue number, so this move was ignored."
+    if move is None:
+        reply_path.write_text(msg + "\n", encoding="utf-8")
+        return False
+    state, reply = apply_move(state, move, env["USER"], seed, today)
+    # Build the README first so a missing-marker error leaves state untouched.
+    readme = update_readme(readme_path.read_text(encoding="utf-8"), render(state, today))
+    state_path.parent.mkdir(exist_ok=True)
+    state_path.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    readme_path.write_text(readme, encoding="utf-8")
+    reply_path.write_text(reply + "\n", encoding="utf-8")
+    return True
+
+
+if __name__ == "__main__":
+    applied = main()
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write(f"applied={'true' if applied else 'false'}\n")

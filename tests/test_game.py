@@ -1,5 +1,7 @@
 import copy
+import json
 import sys
+import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
@@ -182,6 +184,43 @@ class UpdateReadme(unittest.TestCase):
     def test_update_readme_missing_markers_raises(self):
         with self.assertRaises(ValueError):
             game.update_readme("no markers here", "NEW")
+
+
+class Main(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self._tmp.cleanup)
+        self.root = Path(self._tmp.name)
+        (self.root / "README.md").write_text(f"top\n{MARK_A}\nold\n{MARK_B}\nbottom\n", encoding="utf-8")
+
+    def run_main(self, title, user="tester", number="1"):
+        return game.main(self.root, {"TITLE": title, "USER": user, "NUMBER": number})
+
+    def snapshot(self):
+        return [(self.root / p).read_bytes() for p in ("state/game.json", "README.md")]
+
+    def test_main_applies_move(self):
+        self.assertTrue(self.run_main("play: rollback"))
+        state = json.loads((self.root / "state" / "game.json").read_text(encoding="utf-8"))
+        self.assertEqual(state["incident"]["hp"], 62)
+        self.assertIn("@tester", (self.root / "README.md").read_text(encoding="utf-8"))
+        self.assertTrue((self.root / "reply.md").read_text(encoding="utf-8").strip())
+
+    def test_main_rejects_bad_title(self):
+        self.run_main("play: rollback")
+        before = self.snapshot()
+        self.assertFalse(self.run_main("hello", user="other", number="2"))
+        self.assertEqual(self.snapshot(), before)
+        self.assertTrue((self.root / "reply.md").read_text(encoding="utf-8").strip())
+
+    def test_main_rejects_same_user_twice(self):
+        self.assertTrue(self.run_main("play: rollback"))
+        self.assertFalse(self.run_main("play: rollback", number="2"))
+
+    def test_main_bad_number_rejected(self):
+        self.assertFalse(self.run_main("play: rollback", number="abc"))
+        self.assertTrue((self.root / "reply.md").read_text(encoding="utf-8").strip())
+        self.assertFalse((self.root / "state" / "game.json").exists())
 
 
 if __name__ == "__main__":
