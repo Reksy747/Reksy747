@@ -37,7 +37,7 @@ Production is on fire and **you're on call**. Pick a move, press **Submit new is
 🗓️ **0 days since last incident was resolved**
 
 **Last moves**
-_no moves yet_
+- @Reksy747 — deploy-friday — no effect. Deploying on a Friday. Bold. Reckless. Legendary.
 
 **Hall of fame**
 _no winners yet_

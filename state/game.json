@@ -5,7 +5,13 @@
     "max_hp": 80
   },
   "yaml_stack": 0,
-  "log": [],
+  "log": [
+    {
+      "user": "Reksy747",
+      "move": "deploy-friday",
+      "text": "no effect. Deploying on a Friday. Bold. Reckless. Legendary."
+    }
+  ],
   "hall_of_fame": [],
   "last_resolved": "2026-11-06"
 }
