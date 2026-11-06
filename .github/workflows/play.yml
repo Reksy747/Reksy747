@@ -15,9 +15,14 @@ concurrency:
 
 jobs:
   play:
+    # Leave real issues (a recruiter's message, a bug report) alone; only `play:` titles are game moves.
+    if: startsWith(github.event.issue.title, 'play:')
     runs-on: ubuntu-latest
     steps:
+      # Branch tip at run time, not the SHA from when the issue was opened, so queued moves see the latest state.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
 
       # The issue title reaches Python only through env vars, never interpolated into shell.
       - id: play
@@ -39,6 +44,15 @@ jobs:
 
       - run: |
           gh issue comment "$NUMBER" --body-file reply.md
+          gh issue close "$NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+
+      - if: failure()
+        run: |
+          gh issue comment "$NUMBER" --body "The bot itself is on fire 🔥 Something went wrong processing this move, so the board may not have changed. Check the README and try again."
           gh issue close "$NUMBER"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
