@@ -32,11 +32,12 @@ Production is on fire and **you're on call**. Pick a move, press **Submit new is
 <!--START_SECTION:game-->
 **🔥 Incident:** Certificate expired at 3am
 
-🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥⬜⬜⬜ `68/80`
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥⬜⬜⬜⬜⬜⬜ `56/80`
 
-🗓️ **0 days since last incident was resolved**
+🗓️ **5 days since last incident was resolved**
 
 **Last moves**
+- @ReksyArfila — add-yaml — -12 HP. The YAML grows. The outage flinches.
 - @Reksy747 — add-yaml — -8 HP. Two spaces or four? The outage waits.
 - @ReksyArfila — add-yaml — -4 HP. More YAML. Indentation is a lifestyle.
 - @Reksy747 — deploy-friday — no effect. Deploying on a Friday. Bold. Reckless. Legendary.
